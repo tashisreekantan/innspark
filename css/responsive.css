@@ -1,0 +1,289 @@
+
+
+@media (max-width: 1199px) {
+	/* Main Menu Area css
+	============================================================================================ */
+	.header_area .navbar .nav .nav-item {
+		margin-right: 28px;
+	}
+	/* End Main Menu Area css
+	============================================================================================ */
+	/* Home Banner Area css
+	============================================================================================ */
+	.home_banner_area .banner_inner {
+		padding: 100px 0px;
+	}
+	/* End Home Banner Area css
+	============================================================================================ */
+	.header_area .navbar .tickets_btn {
+		margin-left: 40px;
+	}
+}
+
+@media (max-width: 991px) {
+	/* Main Menu Area css
+	============================================================================================ */
+	.navbar-toggler {
+		border: none;
+		border-radius: 0px;
+		padding: 0px;
+		cursor: pointer;
+		margin-top: 27px;
+		margin-bottom: 23px;
+    }
+    .navbar_fixed .navbar-toggler{
+       background-color:#0a77b7;
+    }
+	.header_area {
+		background: #63635f;
+	}
+	.navbar-toggler[aria-expanded="false"] span:nth-child(2) {
+		opacity: 1;
+	}
+	.navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+		opacity: 0;
+	}
+	.navbar-toggler[aria-expanded="true"] span:first-child {
+		transform: rotate(-45deg);
+		position: relative;
+		top: 7.5px;
+	}
+	.navbar-toggler[aria-expanded="true"] span:last-child {
+		transform: rotate(45deg);
+		bottom: 6px;
+		position: relative;
+	}
+	.navbar-toggler span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		background: #fff;
+		margin: auto;
+		margin-bottom: 4px;
+		transition: all 400ms linear;
+		cursor: pointer;
+	}
+	.navbar .container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.nav {
+		padding: 0px 0px;
+	}
+	.header_area + section,
+	.header_area + row,
+	.header_area + div {
+		margin-top: 117px;
+	}
+	.header_top .nav {
+		padding: 0px;
+	}
+	.header_area .navbar .nav .nav-item .nav-link {
+		line-height: 40px;
+		margin-right: 0px;
+		display: block;
+		border-bottom: 1px solid #ededed33;
+		border-radius: 0px;
+	}
+	.header_area .navbar-collapse {
+		max-height: 340px;
+		overflow-y: scroll;
+		
+		
+	}
+	
+	.header_area .navbar-collapse::-webkit-scrollbar {
+		width: 5px; /* Adjust the width as needed */
+	}
+
+	.header_area .navbar-collapse::-webkit-scrollbar-thumb {
+		background: #888; /* Color of the thumb */
+	}
+	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+		padding: 0px 15px;
+	}
+	.header_area .navbar .nav .nav-item {
+		margin-right: 0px;
+	}
+	.header_area + section,
+	.header_area + row,
+	.header_area + div {
+		margin-top: 71px;
+		padding: 0;
+		margin: 0;
+	}
+	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+		line-height: 40px;
+    }
+    .home_banner_area .video-loader{
+		min-height: 0;
+	}
+	.home_banner_area .banner_content{
+		top:100px;
+	}
+	.about_area{
+		margin-top:80px;
+	}
+	/* End Main Menu Area css
+	============================================================================================ */
+
+	/* Footer Area css
+	============================================================================================ */
+	.footer-area .col-sm-6 {
+		margin-bottom: 30px;
+    }
+    .single-footer-widget .sm-head span{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .single-footer-widget img.aligncenter{
+        margin-left: 0;
+	}
+	.ml-40{
+		margin-left:0;
+	  }
+	/* End Footer Area css
+	============================================================================================ */
+
+	.home_banner_area {
+		min-height: 400px;
+	}
+}
+@media (max-width: 767px) {
+	.home_banner_area {
+		min-height: 380px;
+	}
+	.home_banner_area .banner_inner {
+		min-height: 500px;
+	}
+	.home_banner_area .banner_inner .banner_content {
+		margin-top: 0px;
+	}
+	
+	.home_banner_area .banner_inner .banner_content h3 {
+		font-size: 30px;
+	}
+	.home_banner_area .banner_inner .banner_content p br {
+		display: none;
+	}
+	.home_banner_area .banner_inner .banner_content h3 span {
+		line-height: 45px;
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+	.home_banner_area .banner_content {
+		top: 24px;
+	}
+    /* .p-0 {
+        padding-right: 15px !important;
+    } */
+	/* Footer Area css
+	============================================================================================ */
+	.footer-bottom {
+		text-align: center;
+	}
+	.ml-40{
+		margin-left:0;
+	  }
+	  .footer_title { margin-top: 0;}
+	/* End End Footer Area css
+	============================================================================================ */
+}
+@media (max-width: 380px) {
+	.home_banner_area .banner_content h2{
+		font-size: 16px !important;
+		line-height: 0 !important;
+	}
+}
+@media (max-width: 575px) {
+	.header_area + section,
+	.header_area + row,
+	.header_area + div {
+		margin-top: 71px;
+		margin: 0;
+		padding: 0
+	}
+	.home_banner_area .video-loader {
+		min-height: 0;
+	}
+	.home_banner_area .banner_content h2{
+		font-size: 24px;
+		line-height: 60px;
+	}
+	.home_banner_area .banner_content p{
+		margin: 0;
+	}
+	.primary_btn{
+		line-height: 36px;
+		padding: 0 20px;
+	}
+	.section_gap_bottom{
+		padding-top:50px;
+		padding-bottom: 50px;
+	}
+	/* Home Banner Area css
+	============================================================================================ */
+	.home_banner_area .banner_inner .banner_content h2 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.home_banner_area {
+		min-height: 0;
+	}
+	.home_banner_area .banner_inner {
+		min-height: 500px;
+	}
+	.blog_banner .banner_inner .blog_b_text {
+		margin-top: 0px;
+	}
+	.home_banner_area .banner_inner .banner_content img {
+		display: none;
+	}
+	.home_banner_area .banner_inner .banner_content h5 {
+		margin-top: 0px;
+	}
+	.top-header{display: none;}
+	/* End Home Banner Area css
+	============================================================================================ */
+
+	/* Footer Area css
+	============================================================================================ */
+	.single-footer-widget .sub-btn {
+		right: 0px;
+	}
+	.ml-40{
+		margin-left:0;
+	  }
+	  .footer_title{
+		  margin-top: 0;
+	  }
+}
+
+@media (max-width: 480px) {
+	/* Main Menu Area css
+	============================================================================================ */
+	.header_area .navbar-collapse {
+		max-height: 250px;
+	}
+	/* End Main Menu Area css
+	============================================================================================ */
+
+	/* Home Banner Area css
+	============================================================================================ */
+	.home_banner_area .banner_inner .banner_content {
+		padding: 30px 15px;
+		margin-top: 0px;
+	}
+	.home_banner_area .banner_inner .banner_content h3 {
+		font-size: 24px;
+	}
+	.top-header{display: none;}
+	/* End Home Banner Area css
+	============================================================================================ */
+	.banner_area .banner_inner .banner_content h2 {
+		font-size: 32px;
+	}
+	.ml-40{
+		margin-left:0;
+	  }
+}
