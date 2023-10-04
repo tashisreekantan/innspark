@@ -735,7 +735,6 @@ color:#0063ae;
   animation-duration: 2s;  
   animation-fill-mode: forwards;
 }
-
 /* Style for the image */
 .MyCard img {
   width: 30%;
@@ -743,9 +742,7 @@ color:#0063ae;
   display: block;
   display: inline-block;
   margin-bottom: 30px;
-  
 }
-
 /* Style for the text */
 .MyCard .MyCard-text {
   padding: 16px;
@@ -755,15 +752,6 @@ color:#0063ae;
    justify-content: center;
   width: 75%;
 }
-
-/* card transition */
-/* .MyCard {
-  width: 100px;
-  height: 100px;
-  background: red;
-  position: relative;
-  
-} */
 
 @keyframes example {
   from {top: 200px;opacity: .1;}
@@ -814,18 +802,7 @@ color:#0063ae;
   display: flex;
   justify-content: center;
 }
-/* @keyframes imgRotate {
-  from {
-      transform: rotate(0deg);
-  }
-  to {
-      transform: rotate(360deg);
-  }
-} */
-/* award card ends  */
-
 /* client item */
-
 @media only screen and (max-width: 900px) {
   .award-card {
     flex-direction: column;
@@ -833,11 +810,7 @@ color:#0063ae;
   .award-card .award-image {
     clip-path: circle(50% at 50% 50%);
   }
-  
-
 }
-
-
 .logo-slider {
     overflow: hidden;
     padding: 30px 0 0 0;
@@ -881,7 +854,6 @@ color:#0063ae;
   flex-direction: column;
   padding: 20px;
 }
-
 #slider {
   position: relative;
   width: 50%;
@@ -891,8 +863,6 @@ color:#0063ae;
   transform-style: preserve-3d;
   border-radius: 12px;  
 }
-
-
 input[type=radio] {
   position: relative;
   top: 105%;
@@ -907,13 +877,10 @@ input[type=radio] {
   transform: translateX(-83px);
   transition: background 300ms ease, border 300ms ease; 
 }
-
 input[type=radio]:checked {
   background: #FF5A5F;  
   border: 2px solid #FF5A5F;  
 }
-
-
 #slider label,
 #slider label img {
   position: absolute;
@@ -1013,21 +980,12 @@ input[type=radio]:checked {
     }
   }
 }
-
-
 /* --------------------------------AWARDS & RECOGNITIONS slider css ends---------------------------------- */
 
 /* --------------------------------------services css -----------------------------------------*/
 :root {
   --service_card_width: 250px;  
 }
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 .services {
   display: grid;
   place-items: center;
@@ -1300,7 +1258,7 @@ input {
   margin-top: -20px;
 }
 
-/* Grayscale effect on hover */
+
 .image_container:hover img {
   filter: grayscale(0%);
   transform: scale(.95);
@@ -1467,7 +1425,6 @@ input {
   font-size: 30px; 
 }
 #truly{
-  /* font-size: 10px; */
   width: 60%;
 }
 @media only screen and (max-width: 900px) {
