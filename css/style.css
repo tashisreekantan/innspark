@@ -1425,5 +1425,10 @@ input {
     font-size: 15px;
   }
 }
+@media only screen and (max-width: 900px) {
+  .association h2{
+    margin-bottom: 15px;
+  }
+}
 /* carousal css ends*/
 /* ---------------------------newly added ends------------------ */
