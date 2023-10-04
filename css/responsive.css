@@ -84,6 +84,7 @@
 		display: block;
 		border-bottom: 1px solid #ededed33;
 		border-radius: 0px;
+		color:#fff
 	}
 	.header_area .navbar-collapse {
 		max-height: 340px;
